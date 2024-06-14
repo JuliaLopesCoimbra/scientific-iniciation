@@ -1,0 +1,16 @@
+.titlePrincipal{
+    color: aliceblue;
+}
+.img{
+    background-image: url('/public/img/IA.png');
+}
+.img2{
+    background-color: rgb(0, 0, 0);
+    padding: 50px 50px;
+}
+.sub-title{
+    color: aliceblue;
+}
+.text-sub{
+    color: rgb(191, 196, 199);
+}
