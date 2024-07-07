@@ -159,7 +159,7 @@ export default function Pesquisa() {
               </div>
               </a>
 
-              <a href='/problema'>
+              <a href='./bibliografico'>
                 <div class="grid-item imagePesquisa"> 
               
                 <div>
@@ -171,7 +171,7 @@ export default function Pesquisa() {
               </div>
               </a>
 
-              <a href='/problema'>
+              <a href='/objetivo'>
                 <div class="grid-item imagePesquisa"> 
               
                 <div>
@@ -183,7 +183,7 @@ export default function Pesquisa() {
               </div>
               </a>
               
-              <a href='/problema'>
+              <a href='/metodologia'>
                 <div class="grid-item imagePesquisa"> 
               
                 <div>
@@ -195,7 +195,7 @@ export default function Pesquisa() {
               </div>
               </a>
 
-              <a href='/problema'>
+              <a href='/coleta'>
                 <div class="grid-item imagePesquisa"> 
               
                 <div>
@@ -206,7 +206,7 @@ export default function Pesquisa() {
               </div>
               </a>
 
-              <a href='/problema'>
+              <a href='/analise'>
                 <div class="grid-item imagePesquisa"> 
               
                 <div>
@@ -217,7 +217,7 @@ export default function Pesquisa() {
               </div>
               </a>
 
-              <a href='/problema'>
+              <a href='/interpretacao'>
                 <div class="grid-item imagePesquisa"> 
               
                 <div>
@@ -228,7 +228,7 @@ export default function Pesquisa() {
               </div>
               </a>
 
-              <a href='/problema'>
+              <a href='/conclusao'>
                 <div class="grid-item imagePesquisa"> 
               
                 <div>

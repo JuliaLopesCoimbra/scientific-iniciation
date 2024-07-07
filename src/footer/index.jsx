@@ -33,16 +33,15 @@ export default function Footer() {
             <MDBCol md="3" lg="4" xl="3" className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>
                 <MDBIcon icon="gem" className="me-3" />
-                Company name
+                Iniciação Cientifíca.
               </h6>
               <p>
-                Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
-                consectetur adipisicing elit.
+                Esse site foi desevolvido com o intuito de mostrar como o ChatGPT pode ser importante para ajudar as pessoas a tomarem decisões melhores com a tecnologia.
               </p>
             </MDBCol>
 
             <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>Products</h6>
+              <h6 className='text-uppercase fw-bold mb-4'>Aprenda com a Pesquisa</h6>
               <p>
                 <a href='#!' className='text-reset'>
                   Angular
@@ -66,25 +65,25 @@ export default function Footer() {
             </MDBCol>
 
             <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>Useful links</h6>
+              <h6 className='text-uppercase fw-bold mb-4'>Saiba mais</h6>
               <p>
                 <a href='#!' className='text-reset'>
-                  Pricing
+                  Problema
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  Settings
+                  Dados relevantes
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  Orders
+                  Resultados
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  Help
+                 Conclusões
                 </a>
               </p>
             </MDBCol>

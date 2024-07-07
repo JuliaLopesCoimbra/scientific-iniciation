@@ -22,7 +22,7 @@ export default function Header() {
         <div className="flex lg:hidden">
           <button
             type="button"
-            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700 burguer"
+            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700 burguer absolute top-4 left-4"
             onClick={() => setMobileMenuOpen(true)}
           >
             <span className="sr-only">Open main menu</span>
