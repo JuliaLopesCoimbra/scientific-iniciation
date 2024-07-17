@@ -14,9 +14,10 @@ import Objetivo from "./pesquisa/objetivo/index.jsx";
 import Metodologia from "./pesquisa/metodologia/index.jsx";
 import Coleta from "./pesquisa/coleta/index.jsx";
 import Analise from "./pesquisa/analise/index.jsx";
-import Interpretação from "./pesquisa/interpretacao/index.jsx";
+import Interpretacao from "./pesquisa/interpretacao/index.jsx";
 import Conclusao from "./pesquisa/conclusao/index.jsx";
 import Contato from "./contato/index.jsx";
+import Publicacao from "./publicacao/index.jsx";
 import "primereact/resources/themes/lara-light-cyan/theme.css";
 
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
@@ -41,10 +42,11 @@ function App() {
           <Route path="/objetivo" element={<Objetivo/>} />
           <Route path="/metodologia" element={<Metodologia/>} />
           <Route path="/coleta" element={<Coleta/>} />
-          <Route path="/coleta" element={<Analise/>} />
-          <Route path="/coleta" element={<Interpretação/>} />
+          <Route path="/analise" element={<Analise/>} />
+          <Route path="/interpretacao" element={<Interpretacao/>} />
           <Route path="/conclusao" element={<Conclusao/>} />
           <Route path="/contato" element={<Contato/>} />
+          <Route path="/publicacoes" element={<Publicacao/>} />
         </Routes>
       </Router>
       <Footer/>
@@ -53,3 +55,12 @@ function App() {
 }
 
 export default App;
+
+/*enviar email
+analise
+bibliografia
+conclusao
+interpretaçao
+aprenda com a pesquisa
+por online
+ */
