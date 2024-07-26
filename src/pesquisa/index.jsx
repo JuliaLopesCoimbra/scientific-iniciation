@@ -134,7 +134,7 @@ export default function Pesquisa() {
               </p>
               <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900"> Ainda um pouco perdido?</h2>
               <p className="mt-6">
-                  Fique calmo, abaixo explico todas as etapas da minha pesquisa de forma prática sem você precisar ler o artigo inteiro de 40 páginas.
+                  Fique calmo, abaixo explico todas as etapas da minha pesquisa de forma prática sem você precisar ler o artigo inteiro de 50 páginas.
               </p>
             </div>
           </div>

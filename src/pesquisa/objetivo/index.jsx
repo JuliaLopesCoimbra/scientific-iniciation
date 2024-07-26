@@ -31,7 +31,7 @@ export default function Objetivo() {
                 Objetivo de Pesquisa
                 <br />
               </h2>
-              <p className="mt-6 text-lg leading-8 text-gray-300">
+              <p className="mt-6  leading-8 text-gray-300">
               Um objetivo de pesquisa de um artigo científico é uma declaração clara e precisa que define o propósito e a direção do estudo. Este objetivo serve como a bússola do pesquisador, orientando todas as etapas do processo de investigação, desde a formulação de hipóteses até a coleta e análise de dados, e finalmente, à interpretação dos resultados.              </p>
             </div>
           </div>
@@ -41,13 +41,11 @@ export default function Objetivo() {
         <div className="container-explica-problema bg-black mt-8">
           <div className="grid-total bg-black">
             <div className="grid-text">
-            O meu objetivo de pesquisa foi analisar como o ChatGPT pode auxiliar as pessoas a tomarem decisões e a aumentar sua produtividade em suas rotinas diárias. O objetivo segue com a mesma ideia do problema de pesquisa, porém possui a capacidade de buscar a solução.         </div>
-            <div className="grid-text">
-            Espera-se que a pesquisa revele insights valiosos sobre a eficácia do ChatGPT em suportar a tomada de decisões e em aumentar a produtividade. Entre os resultados esperados, destaca-se a melhoria na tomada de decisões, identificando como o ChatGPT pode fornecer informações relevantes e alternativas que ajudem os usuários a tomar decisões mais informadas e racionais.           </div>
-            <div className="grid-text">
-            Além disso, foi esperado que a obtenção rápida de informações através do ChatGPT poderiam liberar tempo e recursos para atividades mais estratégicas. Outro resultado esperado foi a identificação de melhores práticas e estratégias para integrar o ChatGPT em diferentes contextos de trabalho e vida pessoal, maximizando seus benefícios.          </div>
+            O objetivo de pesquisa foi analisar como o ChatGPT pode auxiliar as pessoas a tomarem decisões e a aumentar sua produtividade em suas rotinas diárias. O objetivo segue com a mesma ideia do problema de pesquisa, porém com a capacidade de buscar a solução.         </div>
+           
+  
             <div className="grid-text" >
-              Com isso, a metodologia de pesquisa passou por diversos processos, clique <a href='./metodologia'> <span style={{ color: 'white', fontWeight: 'bold' }} className='highlight'>[aqui] </span></a>e veja como foi esse desenvolvimento.
+              Com isso, a metodologia de pesquisa passou por diversos processos para conseguir solucionar isso, clique <a href='./metodologia'> <span style={{ color: 'white', fontWeight: 'bold' }} className='highlight'>[aqui] </span></a>e veja como foi esse desenvolvimento.
             </div>
           </div>
         </div>

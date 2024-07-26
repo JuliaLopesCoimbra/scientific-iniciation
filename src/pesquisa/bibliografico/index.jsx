@@ -36,7 +36,7 @@ export default function Bibliografico() {
                 Levantamento bibliografico
                 <br />
               </h2>
-              <p className="mt-6 text-lg leading-8 text-gray-300">
+              <p className="mt-6  leading-8 text-gray-300">
                 Uma etapa fundamental em qualquer pesquisa acadêmica ou científica. Ele consiste na busca, seleção e análise de materiais já publicados sobre o tema ou problema de pesquisa em questão.
               </p>
             </div>
@@ -112,3 +112,5 @@ export default function Bibliografico() {
     </div>
   );
 }
+
+

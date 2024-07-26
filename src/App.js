@@ -56,9 +56,11 @@ function App() {
 
 export default App;
 
-/*enviar email
+/*
+enviar email
+bibliografia - colcoar mais artigos
+coleta - entrevista 2
 analise
-bibliografia
 conclusao
 interpretaçao
 aprenda com a pesquisa

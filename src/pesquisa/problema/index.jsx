@@ -23,7 +23,7 @@ export default function Problema() {
               <br />
               
             </h2>
-            <p className="mt-6 text-lg leading-8 text-gray-300">
+            <p className="mt-6 leading-8 text-gray-300">
               É o motivo do surgimento da pesquisa, a razão na qual o estudo se baseia em seu desenvolvimento e busca solucionar com os objetivos
             </p>
             
@@ -50,6 +50,8 @@ export default function Problema() {
             <div className='grid-text'>
             Entendi que, para avançar, eu precisaria não apenas aprender sobre <span className='highlight'>Inteligência Artificial e ChatGPT,</span> mas também sobre como conduzir uma pesquisa acadêmica e tomar decisões informadas ao longo do processo. Decidi, então, que minha pesquisa se focaria nesse tripé: explorar como a Inteligência Artificial, especialmente através do ChatGPT, poderia auxiliar na tomada de decisões.            
             </div>
+            <div className='grid-text'>
+            Hoje, é desejável que a tomada de decisão seja eficiente e fácil. Embora o cérebro humano seja insubstituível, ele não é perfeito. As pessoas estão constantemente planejando e iniciando projetos, mas tomar decisões pode ser difícil sem um conhecimento sólido sobre o assunto.            </div>
             <div className='grid-text'>
             Desde então, minha jornada de pesquisa se iniciou. Comecei a estudar a fundo os fundamentos da Inteligência Artificial, aprendendo sobre as diferentes abordagens e técnicas usadas na área. Ao mesmo tempo, mergulhei no mundo do ChatGPT, explorando como ele funciona e as potencialidades que oferece. Paralelamente, desenvolvi um entendimento mais sólido sobre o processo de tomada de decisões, tanto em <span className='highlight'>contextos humanos</span> quanto artificiais.           
             </div>  

@@ -46,7 +46,7 @@ export default function Home() {
           Meu nome é Júlia e esse site mostra tudo sobre a minha iniciação científica
           </p>
           
-          <p className="mt-6 text-lg leading-8 text-gray-600">
+          <p className="mt-6 leading-8 text-gray-600">
           Tudo que você precisa saber sobre a minha pesquisa está aqui
           </p>
         </div>

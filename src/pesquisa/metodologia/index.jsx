@@ -35,7 +35,7 @@ export default function Metodologia() {
                 Metodologia de Pesquisa
                 <br />
               </h2>
-              <p className="mt-6 text-lg leading-8 text-gray-300">
+              <p className="mt-6  leading-8 text-gray-300">
               A metodologia de pesquisa é o conjunto de métodos e técnicas utilizados para coletar, analisar e interpretar dados em um estudo científico. Ela define o caminho a ser seguido para alcançar os objetivos da pesquisa, garantindo que o processo seja sistemático, rigoroso e replicável. </p>
             </div>
           </div>
@@ -43,14 +43,12 @@ export default function Metodologia() {
       </div>
       <div className="container-explica-problema bg-black mt-8">
         <div className="grid-total bg-black">
-          <div className="grid-text">
-          Amostra
-          </div>
+          
           <div className="grid-text">
           A pesquisa foi realizada com estudantes de graduação na área de computação, que possuem funções ativas em suas rotinas, para garantir resultados transparentes e dinâmicos, foi pensado dessa maneira, pois as pessoas que não tinham um costume com a tecnologia não iria trazer resultados precisos para a pesquisa. A amostra consistiu em <span className='highlight' style={{ color: 'green', fontWeight: 'bold' }}>7 graduandos em Computação</span>, considerados apropriados para a coleta de dados.
           </div>
           <div className="grid-text">
-          Tipo de Metodologia
+          O tipo de Metodologia
           </div>
           <div className="grid-text" >
           A pesquisa seguiu uma abordagem <span className='highlight' style={{ color: 'green', fontWeight: 'bold' }}>qualitativa e exploratória</span>, utilizando <span className='highlight' style={{ color: 'green', fontWeight: 'bold' }}>entrevistas e estudos bibliográficos</span>. Foram realizadas duas entrevistas com os participantes: <span className='highlight' style={{ color: 'green', fontWeight: 'bold' }}>a primeira para conhecer suas rotinas</span> e introduzir o estudo, e a <span className='highlight' style={{ color: 'green', fontWeight: 'bold' }}>segunda, mais específica, após um período de teste onde utilizaram o ChatGPT como auxílio em suas decisões.</span>
@@ -58,14 +56,23 @@ export default function Metodologia() {
           <div className="grid-text" >
           As respostas das entrevistas foram transcritas, analisadas e organizadas em um canvas no Obsidian, uma plataforma de anotações que utiliza a linguagem Markdown. O Obsidian permitiu a separação e análise das informações, facilitando a identificação de padrões e semelhanças nas respostas dos entrevistados.
           </div>
+          <div className="grid-text" >
+            Essas são as respostas da primeira entrevista e da segunda entrevista organizadas abaixo respectivamente no software Obsidian:
+          </div>
           <img
               src="/img/metodologia.png"
               alt="App screenshot"
               width={1824}
               height={1080}
             />
+            <img
+              src="/img/Resumo2.png"
+              alt="App screenshot"
+              width={1824}
+              height={1080}
+            />
           <div className="grid-text" >
-          Essa metodologia visou compreender como o ChatGPT pode ser utilizado para melhorar a tomada de decisões e aumentar a produtividade das pessoas, proporcionando uma análise aprofundada e detalhada das experiências dos participantes.
+            Diante dessa organização de respostas eu pude analisar os meus resultados de maneira correta e estratégica.
           </div>
           <div className="grid-text" >
             Para continuar e saber dos resultados você pode clicar <a href="/coleta"><span className='highlight' style={{ color: 'green', fontWeight: 'bold' }}>[aqui]</span></a>

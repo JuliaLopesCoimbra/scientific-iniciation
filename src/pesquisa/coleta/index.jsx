@@ -36,7 +36,7 @@ export default function Coleta() {
                Coleta de dados
                 <br />
               </h2>
-              <p className="mt-6 text-lg leading-8 text-gray-300">
+              <p className="mt-6  leading-8 text-gray-300">
               A coleta de dados em uma pesquisa refere-se ao processo sistemático de reunir informações relevantes para responder a perguntas de pesquisa, testar hipóteses e avaliar resultados. Este processo é fundamental para obter insights precisos e confiáveis sobre o assunto de interesse. </p>
             </div>
           </div>
@@ -49,22 +49,33 @@ export default function Coleta() {
             </b>
           </div>
           <div className="grid-text">
-            Na primeira entrevista todos responderam que <span className='highlight' style={{ color: 'yellow', fontWeight: 'bold' }}>não se consideram produtivos sem a internet</span>, o que mostra que a era da tecnologia está presente.
+            Na primeira entrevista todos responderam que <span className='highlight' style={{ color: 'yellow', fontWeight: 'bold' }}>já não se consideravam produtivos sem a internet</span>, o que mostra uma forte relação com os resultados necessários para a pesquisa.
           </div>
           <div className="grid-text">
           O uso da Inteligência Artificial no cotidiano das pessoas fez parte de uma das perguntas da entrevista, e todos trouxeram exemplos de onde elas estão presentes em suas rotinas, não somente nos chats robôs, mas em várias outras partes do mundo virtual e real, <span className='highlight' style={{ color: 'yellow', fontWeight: 'bold' }}>áreas como na faculdade, no trabalho, nas redes sociais e para aumentar a produtividade em suas rotinas.</span>
+          <img
+              src="/img/area.png"
+              alt="App screenshot"
+              width={1824}
+              height={1080}
+            />
           </div>
           <div className="grid-text">
           Esses resultados mostram que a Inteligência Artificial é altamente presente nas rotinas das pessoas, oferecendo um auxílio aos humanos e tornando-os mais produtivos.          
           </div>
+          
           <div className="grid-text">
-          Esses resultados mostram que a Inteligência Artificial é altamente presente nas rotinas das pessoas, oferecendo um auxílio aos humanos e tornando-os mais produtivos.          
+          Desse modo, como o foco da primeira entrevista permaneceu no ChatGPT, pode-se obter respostas analíticas conforme o objetivo da pesquisa e com isso, mais de  <span className='highlight' style={{ color: 'yellow', fontWeight: 'bold' }}>70% deles já utilizavam o ChatGPT para tomar decisões.</span> 
+          <img
+              src="/img/gpt.png"
+              alt="App screenshot"
+              width={1824}
+              height={1080}
+            />
+             <br></br>Perante esses primeiros dados, as respostas da segunda entrevista iriam trazer resultados mais analíticos para o estudo, pois as pessoas que não usam a plataforma passarão pelo teste mudando sua rotina e trazendo resultados de acordo com o objetivo, já as pessoas que usam, apesar de terem em sua rotina, haveria resultados mais estretégicos para o estudo. 
           </div>
           <div className="grid-text">
-          Desse modo, como o foco da primeira entrevista permaneceu no ChatGPT, pode-se obter respostas analíticas conforme o objetivo da pesquisa e com isso, com o total de 7 entrevistados, mais de  <span className='highlight' style={{ color: 'yellow', fontWeight: 'bold' }}>70% deles já utilizavam o ChatGPT para tomar decisões.</span> <br></br> <br></br>No entanto, as respostas da segunda entrevista iriam trazer resultados analíticos para o estudo, pois as pessoas que não usam a plataforma passarão pelo teste mudando sua rotina e trazendo resultados de acordo com o objetivo, já as pessoas que usam, apesar de terem em sua rotina, haveria resultados mais transparentes para o estudo. 
-          </div>
-          <div className="grid-text">
-          Conhecendo a rotina de cada indivíduo e compreendendo as expectativas de cada um em relação ao ChatGPT presente em suas vidas, foi de maneira estratégica desenvolvida a segunda entrevista para obter os dados necessários.          
+          Assim, conhecendo a rotina de cada indivíduo e compreendendo as expectativas de cada um em relação ao ChatGPT presente em suas vidas, foi desenvolvida a segunda entrevista para obter os dados necessários.          
           </div>
         </div>
         <div className="grid-text">
