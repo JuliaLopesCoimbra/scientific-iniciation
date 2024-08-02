@@ -18,6 +18,7 @@ import Interpretacao from "./pesquisa/interpretacao/index.jsx";
 import Conclusao from "./pesquisa/conclusao/index.jsx";
 import Contato from "./contato/index.jsx";
 import Publicacao from "./publicacao/index.jsx";
+import Aprenda from "./aprenda/index.jsx";
 import "primereact/resources/themes/lara-light-cyan/theme.css";
 
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
@@ -47,6 +48,7 @@ function App() {
           <Route path="/conclusao" element={<Conclusao/>} />
           <Route path="/contato" element={<Contato/>} />
           <Route path="/publicacoes" element={<Publicacao/>} />
+          <Route path="/aprenda" element={<Aprenda/>} />
         </Routes>
       </Router>
       <Footer/>
@@ -58,10 +60,6 @@ export default App;
 
 /*
 enviar email
-bibliografia - colcoar mais artigos
-coleta - entrevista 2
-analise
-conclusao
 interpretaçao
 aprenda com a pesquisa
 por online

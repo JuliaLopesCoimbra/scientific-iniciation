@@ -21,6 +21,28 @@ export default function Decisao() {
                 </AccordionTab>
                
             </Accordion>
+            <Accordion activeIndex={0}>
+                <AccordionTab header="Uma breve história da tomada de decisão.  BUCHANAN, Leigh; O’CONNELL, Andrew">
+                    <p className="m-0">
+                    O artigo explora a evolução da tomada de decisão desde suas origens até os dias atuais, destacando as mudanças nas abordagens e nas ferramentas utilizadas ao longo do tempo.
+                    </p>
+                    <p className="m-0">
+                    Inicialmente, a tomada de decisão era intuitiva e baseada em experiências individuais. Com o tempo, as civilizações, como a grega, começaram a desenvolver métodos mais estruturados, introduzindo a lógica e a filosofia para decisões racionais.                    
+                    </p>
+                    <br></br>
+                    <p className="m-0">
+                    Durante a Revolução Industrial, a administração científica de Frederick Taylor trouxe eficiência e padronização, com técnicas como a análise de custo-benefício e estatísticas.
+
+                    No século XX, a pesquisa operacional e a teoria dos jogos influenciaram a tomada de decisões complexas, especialmente em contextos militares e empresariais. Com a era digital e o big data, algoritmos e inteligência artificial passaram a permitir a análise de grandes volumes de dados para prever resultados, levantando questões éticas sobre a transparência e responsabilidade das decisões automatizadas.
+                    </p>
+                    <br></br>
+                    <p className="m-0">
+                    O artigo destaca a necessidade de equilibrar inovação tecnológica e responsabilidade ética para um desenvolvimento sustentável das tecnologias de tomada de decisão. Você pode ver mais clicando <a href='https://www.academia.edu/9158812/UMA_BREVE_HISTÓRIA_DA_TOMADA_DE_DECISÃO'>aqui</a>
+                    </p>
+                   
+                </AccordionTab>
+               
+            </Accordion>
         </div>
     )
 }

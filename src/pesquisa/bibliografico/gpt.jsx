@@ -20,17 +20,16 @@ export default function GPT() {
                     
                    
                 </AccordionTab>
-                <AccordionTab header="A inteligência artificial e eu: escrevendo o editorial juntamente com o ChatGPT. ROSSONI, Luciano">
+                <AccordionTab header="Impacto do Chat GPT na sociedade GROSSI. SOARES, M.">
                     <p className="m-0">
-                    O artigo "A inteligência artificial e eu: escrevendo o editorial juntamente com o ChatGPT" explora a experiência do autor ao utilizar o ChatGPT como coautor na elaboração de um editorial. <br></br><br></br>O autor descreve como a IA contribuiu para o processo criativo, ajudando na geração de ideias, estruturação do texto e revisão. Além disso, discute as implicações éticas e metodológicas do uso de inteligência artificial na escrita acadêmica, destacando tanto os benefícios, como a eficiência e inovação, quanto as limitações, como a necessidade de supervisão humana para garantir a precisão e a originalidade.
-                  
+                    Esse estudo aborda como a IA pode transformar o ensino, proporcionando experiências personalizadas, identificando dificuldades dos alunos e oferecendo soluções específicas. 
                     </p>
                     <br></br>
                     <p className="m-0">
-                    Na minha visão, esse artigo contribui para a tomada de decisão com o GPT ao demonstrar como a IA pode ser uma ferramenta eficaz no processo de escrita acadêmica. O autor detalha a experiência prática de usar o ChatGPT para gerar ideias, estruturar textos e revisar conteúdo, destacando tanto os benefícios, como a eficiência e inovação, quanto as limitações, incluindo a necessidade de supervisão humana para assegurar a precisão e a originalidade. Esta análise fornece uma base prática e ética para decisões informadas sobre a utilização do GPT em ambientes acadêmicos. O que demonstra que pode ter a capacidade de inovar as nossas ações e economizar o nosso tempo de trabalho
+                    O legal desse artigo é que ele explora o potencial da IA para auxiliar professores, automatizando tarefas administrativas e permitindo um foco maior no ensino. Exemplos práticos incluem tutores inteligentes e sistemas de avaliação automatizados, que promovem um aprendizado mais eficiente e adaptativo. O interessante é que a situação desse artigo pode ser um futuro próximo em nossa educação.
                     </p>
                     <br></br>
-                    Para mais detalhes, você pode acessar o artigo completo <a href='https://www.periodicosibepes.org.br/index.php/recadm/article/view/3761'>aqui.</a>
+                    Para mais detalhes, você pode acessar o artigo completo <a href='https://periodicos.fapam.edu.br/index.php/synthesis/article/view/635/328'>aqui.</a>
                 </AccordionTab>
 
 
@@ -49,5 +48,3 @@ export default function GPT() {
     )
 }
        
-        //transofrmer
-        //no artigo mexer mais em gpt, pois tem mais coisa pra por

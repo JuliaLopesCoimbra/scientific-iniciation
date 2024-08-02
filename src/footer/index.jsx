@@ -44,22 +44,22 @@ export default function Footer() {
               <h6 className='text-uppercase fw-bold mb-4'>Aprenda com a Pesquisa</h6>
               <p>
                 <a href='#!' className='text-reset'>
-                  Angular
+                  a
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  React
+                  b
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  Vue
+                  c
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  Laravel
+                  d
                 </a>
               </p>
             </MDBCol>
@@ -67,23 +67,23 @@ export default function Footer() {
             <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>Saiba mais</h6>
               <p>
-                <a href='#!' className='text-reset'>
-                  Problema
+                <a href='/problema' className='text-reset'>
+                  Problema de pesquisa
                 </a>
               </p>
               <p>
-                <a href='#!' className='text-reset'>
-                  Dados relevantes
+                <a href='/bibliografico' className='text-reset'>
+                  Levantamento Bibliográfico
                 </a>
               </p>
               <p>
-                <a href='#!' className='text-reset'>
-                  Resultados
+                <a href='/coleta' className='text-reset'>
+                  Coleta de Dados
                 </a>
               </p>
               <p>
-                <a href='#!' className='text-reset'>
-                 Conclusões
+                <a href='/interpretacao' className='text-reset'>
+                 Interpretação dos Resultados
                 </a>
               </p>
             </MDBCol>

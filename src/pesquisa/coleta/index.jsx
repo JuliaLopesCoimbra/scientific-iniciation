@@ -72,7 +72,7 @@ export default function Coleta() {
               width={1824}
               height={1080}
             />
-             <br></br>Perante esses primeiros dados, as respostas da segunda entrevista iriam trazer resultados mais analíticos para o estudo, pois as pessoas que não usam a plataforma passarão pelo teste mudando sua rotina e trazendo resultados de acordo com o objetivo, já as pessoas que usam, apesar de terem em sua rotina, haveria resultados mais estretégicos para o estudo. 
+             <br></br>Esses primeiros dados, foi analisado que as as respostas da segunda entrevista iriam trazer resultados mais analíticos para o estudo, pois as pessoas que não usam a plataforma passarão pelo teste mudando sua rotina e trazendo resultados de acordo com o objetivo, já as pessoas que usam, apesar de terem em sua rotina, haveria resultados mais estretégicos para o estudo. 
           </div>
           <div className="grid-text">
           Assim, conhecendo a rotina de cada indivíduo e compreendendo as expectativas de cada um em relação ao ChatGPT presente em suas vidas, foi desenvolvida a segunda entrevista para obter os dados necessários.          
@@ -83,13 +83,11 @@ export default function Coleta() {
         </div>
         <br></br>
         <div className="grid-text">
-            A segunda entrevista teve o objetivo de aprofundar mais nas ideias dos entrevistados e estudar como foi o comportamento deles ao utilizar o ChatGPT como auxílio em suas tomada de decisões 
-        </div>
-        <br></br>
-        <div className="grid-text">
-          Posso citar inúmeros resultados que obtive diante desse período de teste, mas a principal diferença na rotina dos entrevistados foi que o           <span className='highlight' style={{ color: 'yellow', fontWeight: 'bold' }}>ChatGPT conseguiu oferecer mais eficiência na rotina deles. </span>
+            Com o objetivo de aprofundar mais nas ideias dos entrevistados e estudar como foi o comportamento deles ao utilizar o ChatGPT como auxílio em suas tomada de decisões 
+            É possível citar inúmeros resultados que obtive diante desse período de teste, mas a principal diferença na rotina dos entrevistados foi que o           <span className='highlight' style={{ color: 'yellow', fontWeight: 'bold' }}>ChatGPT conseguiu oferecer mais eficiência na rotina deles. </span>
            Todas as necessidades que eles tinham, se pesquisassem em outros fóruns, <span className='highlight' style={{ color: 'yellow', fontWeight: 'bold' }}>levariam mais que o dobro do tempo do que se pesquisassem no ChatGPT</span>
         </div>
+      
         <br></br>
         <div className="grid-text">
         Cada indivíduo trouxe, ao menos, três situações nas quais não tinham conhecimento sobre o assunto e precisavam tomar uma decisão, e usaram o GPT para auxiliá-los. 
@@ -100,22 +98,22 @@ export default function Coleta() {
           Essas situações foram analisadas profundamente com o intuito de reconhecer como a plataforma fez a diferença, clicando <a href="analise"><span className='highlight' style={{ color: 'yellow', fontWeight: 'bold' }}>[aqui]</span></a> você pode ler uma das partes mais interessantes da pesquisa.
         </div>
         <br></br>
-        <div className="grid-text pequeno">
+        <div className="grid-text ">
           Porém, outros dados também foram coletados a partir da segunda entrevista. Uma pergunta crucial foi feita para todos os entrevistados, e ela foi a seguinte:           <span className='highlight' style={{ color: 'yellow', fontWeight: 'bold' }}> "A forma como você toma decisões mudou após passar por esse período de teste?". </span>
           Todos responderam que a mudança em suas tomadas de decisões foi que           <span className='highlight' style={{ color: 'yellow', fontWeight: 'bold' }}> passaram a utilizar 100% da ferramenta. </span>
           Primeiramente, porque se sentiam mais produtivos com ela e, segundo, porque tinham certeza de que os dados estariam seguros para serem usados posteriormente. 
          
         </div>
         <br></br>
-        <div className="grid-text pequeno">
+        <div className="grid-text ">
           É importante mencionar que todos confessaram que em nenhum momento deixaram de utilizar suas ideias, ou seja, não utilizaram na íntegra as respostas do ChatGPT, mas que utilizaram a ferramenta como uma         <span className='highlight' style={{ color: 'yellow', fontWeight: 'bold' }}>base para suas ideias. </span>
         </div>
         <br></br>
-        <div className="grid-text pequeno">
+        <div className="grid-text ">
         Alguns falaram que tinham receio de usar o ChatGPT antes do período de teste, pois não confiavam na ferramenta. Sentiam-se como se estivessem errados por acharem que o ChatGPT poderia usar plágios ou fornecer dados incorretos. No entanto, ao usar a ferramenta, puderam perceber que estavam equivocados e que a ferramenta foi uma solução de auxílio em sua rotina.        
         </div>
         <br></br>
-        <div className="grid-text pequeno">
+        <div className="grid-text ">
         Todas essas situações resultaram em grandes melhorias na vida dos entrevistados. Com o auxílio da ferramenta, todos os indivíduos concordaram que se sentiram mais produtivos quando utilizaram o ChatGPT em suas rotinas. Falaram que poderiam realizar todas as tarefas sem a ferramenta, porém não com o mesmo desempenho e nem dentro do mesmo tempo.       
         </div>
       </div>

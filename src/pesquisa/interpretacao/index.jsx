@@ -32,11 +32,12 @@ export default function Interpretação() {
             </svg>
             <div className="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left">
               <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl " >
-                Objetivo de Pesquisa
+                Interpretação dos Resultados
                 <br />
               </h2>
-              <p className="mt-6 text-lg leading-8 text-gray-300">
-              Um objetivo de pesquisa de um artigo científico é uma declaração clara e precisa que define o propósito e a direção do estudo. Este objetivo serve como a bússola do pesquisador, orientando todas as etapas do processo de investigação, desde a formulação de hipóteses até a coleta e análise de dados, e finalmente, à interpretação dos resultados.              </p>
+              <p className="mt-6  leading-8 text-gray-300">
+              A interpretação dos resultados em um artigo científico é crucial porque coloca os resultados dentro do contexto da pesquisa existente, permitindo que os leitores entendam a relevância e as implicações dos achados.
+              </p>
             </div>
           </div>
         </div>
@@ -50,7 +51,7 @@ export default function Interpretação() {
           <div className="grid-text">
           Além disso, espera-se demonstrar obtenção rápida de informações através do ChatGPT podem liberar tempo e recursos para atividades mais estratégicas. Outro resultado esperado é a identificação de melhores práticas e estratégias para integrar o ChatGPT em diferentes contextos de trabalho e vida pessoal, maximizando seus benefícios.          </div>
           <div className="grid-text" >
-            Com isso, a metodologia de pesquisa passou por diversos processos, clique <a href='./metodologia'> <span className='highlight'>[aqui] </span></a>e veja como foi esse desenvolvimento.
+            Com isso, a metodologia de pesquisa passou por diversos processos, clique <a href='./conclusao'> <span className='highlight'>[aqui] </span></a>e veja como foi esse desenvolvimento.
           </div>
         </div>
       </div>

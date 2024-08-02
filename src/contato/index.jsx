@@ -9,25 +9,42 @@ export default function Contato() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
-    const response = await fetch('http://localhost:3000/contato', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        firstName,
-        lastName,
-        email,
-        phoneNumber,
-        message,
-      }),
-    });
-
-    if (response.ok) {
-      alert('Email enviado com sucesso!');
-    } else {
-      alert('Falha em enviar o e-mail');
+  
+    const contactData = {
+      firstName,
+      lastName,
+      email,
+      phoneNumber,
+      message,
+    };
+  
+    try {
+      const response = await fetch('http://localhost:3000/contato', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(contactData),
+      });
+  
+      const contentType = response.headers.get('content-type');
+      const responseText = await response.text(); // Pegue a resposta como texto
+  
+      console.log('Resposta do servidor:', responseText);
+  
+      if (contentType && contentType.includes('application/json')) {
+        const result = JSON.parse(responseText);
+        if (response.ok) {
+          alert('Email enviado com sucesso!');
+        } else {
+          alert('Falha em enviar o e-mail: ' + (result.error || 'Erro desconhecido'));
+        }
+      } else {
+        alert('Resposta inesperada do servidor: ' + responseText);
+      }
+    } catch (error) {
+      console.error('Erro na solicitação fetch:', error);
+      alert('Falha em enviar o e-mail: ' + error.message);
     }
   };
 

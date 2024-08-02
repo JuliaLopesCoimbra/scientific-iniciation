@@ -1,51 +1,52 @@
-require('dotenv').config();
-
+// server.js (ou o nome do seu arquivo Node.js)
 const express = require('express');
-const nodemailer = require('nodemailer');
-const bodyParser = require('body-parser');
 const cors = require('cors');
+const nodemailer = require('nodemailer');
+
 const app = express();
-const port = 3000; // Porta do servidor
+app.use(express.json());
 
-// Middleware
-app.use(bodyParser.json());
-app.use(cors());
+// Configure CORS
+app.use(cors({
+  origin: 'http://localhost:3000', // Substitua pela URL do seu frontend
+}));
 
-// Route to handle form submission
-app.post('/email', (req, res) => {
+const transporter = nodemailer.createTransport({
+  host: 'smtp.gmail.com',
+  port: 465,
+  secure: true, // Use true para port 465, false para port 587
+  auth: {
+    user: 'contatojulialopescoimbra@gmail.com',
+    pass: 'ezdl myqf xury hpul', // Certifique-se de que esta senha está correta
+  },
+});
+
+app.post('/contato', (req, res) => {
   const { firstName, lastName, email, phoneNumber, message } = req.body;
 
-  // Create a transporter
-  const transporter = nodemailer.createTransport({
-    service: 'gmail',
-    auth: {
-      user: process.env.EMAIL_USER,
-      pass: process.env.EMAIL_PASS,
-    },
-  });
-
-  // Mail options
   const mailOptions = {
-    from: email,
-    to: process.env.EMAIL_USER, // Utilize seu email do .env
-    subject: 'New Contact Form Submission',
-    text: `
-      Name: ${firstName} ${lastName}
-      Email: ${email}
-      Phone: ${phoneNumber}
-      Message: ${message}
+    from: 'Contato com <contatojulialopescoimbra@gmail.com>',
+    to: 'contatojulialopescoimbra@gmail.com',
+    subject: 'Mensagem de Contato',
+    html: `
+      <p><strong>Primeiro Nome:</strong> ${firstName}</p>
+      <p><strong>Sobrenome:</strong> ${lastName}</p>
+      <p><strong>Email:</strong> ${email}</p>
+      <p><strong>Número de Celular:</strong> ${phoneNumber}</p>
+      <p><strong>Mensagem:</strong> ${message}</p>
     `,
   };
 
-  // Send email
   transporter.sendMail(mailOptions, (error, info) => {
     if (error) {
-      return res.status(500).send(error.toString());
+      console.error('Erro ao enviar e-mail:', error);
+      return res.status(500).json({ error: 'Falha ao enviar o e-mail' });
     }
-    res.status(200).send('Email sent: ' + info.response);
+    console.log('E-mail enviado:', info.response);
+    return res.status(200).json({ message: 'E-mail enviado com sucesso' });
   });
 });
 
-app.listen(port, () => {
-  console.log(`Server is running on port ${port}`);
+app.listen(3000, () => {
+  console.log('Servidor rodando na porta 3000');
 });

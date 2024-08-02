@@ -26,17 +26,18 @@ export default function Analise() {
               <defs>
                 <radialGradient id="759c1415-0410-454c-8f7c-9a820de03641">
                   <stop stopColor="white" />
-                  <stop offset={1} stopColor="white" />
+                  <stop offset={1} stopColor="red" />
                 </radialGradient>
               </defs>
             </svg>
             <div className="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left">
               <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl " >
-                Objetivo de Pesquisa
+                Análise dos Resultados
                 <br />
               </h2>
-              <p className="mt-6 text-lg leading-8 text-gray-300">
-              Um objetivo de pesquisa de um artigo científico é uma declaração clara e precisa que define o propósito e a direção do estudo. Este objetivo serve como a bússola do pesquisador, orientando todas as etapas do processo de investigação, desde a formulação de hipóteses até a coleta e análise de dados, e finalmente, à interpretação dos resultados.              </p>
+              <p className="mt-6  leading-8 text-gray-300">
+              A análise de resultados em um artigo científico é crucial porque valida hipóteses, interpreta dados, fundamenta conclusões e garante a reprodutibilidade. Isso é essencial para a credibilidade, validade e impacto do estudo.
+              </p>
             </div>
           </div>
         </div>
@@ -44,15 +45,40 @@ export default function Analise() {
       <div className="container-explica-problema bg-black mt-8">
         <div className="grid-total bg-black">
           <div className="grid-text">
-          O objetivo desta pesquisa é analisar como o ChatGPT pode auxiliar as pessoas a tomarem decisões e a aumentarem sua produtividade em suas rotinas diárias. Com o avanço rápido da inteligência artificial e sua integração crescente em diversas áreas da vida cotidiana, é essencial compreender como ferramentas como o ChatGPT podem ser utilizadas de maneira eficaz para beneficiar os usuários.          </div>
+          O uso do ChatGPT revelou-se um recurso valioso e multifacetado para diversos entrevistados, ajudando-os a tomar decisões informadas em situações onde faltava conhecimento. 
+          </div>
           <div className="grid-text">
-          Espera-se que a pesquisa revele insights valiosos sobre a eficácia do ChatGPT em suportar a tomada de decisões e em aumentar a produtividade. Entre os resultados esperados, destaca-se a melhoria na tomada de decisões, identificando como o ChatGPT pode fornecer informações relevantes e alternativas que ajudem os usuários a tomar decisões mais informadas e racionais.           </div>
+          Na área técnica, a ferramenta foi essencial para resolver <span className='highlight' style={{ color: 'red', fontWeight: 'bold' }}>problemas de código</span>, identificar erros em SGBDs e guiar ações na AWS, reduzindo o tempo de resolução de dias para minutos. 
+         </div>
           <div className="grid-text">
-          Além disso, espera-se demonstrar obtenção rápida de informações através do ChatGPT podem liberar tempo e recursos para atividades mais estratégicas. Outro resultado esperado é a identificação de melhores práticas e estratégias para integrar o ChatGPT em diferentes contextos de trabalho e vida pessoal, maximizando seus benefícios.          </div>
+          Além disso, o ChatGPT auxiliou na <span className='highlight' style={{ color: 'red', fontWeight: 'bold' }}>criação de planos de aula dinâmicos</span> para um professor de inglês.
+          </div>
+          <div className="grid-text">
+          Forneceu <span className='highlight' style={{ color: 'red', fontWeight: 'bold' }}>estratégicas de marketing</span> eficazes para um gerente de vendas.
+          </div>
+          <div className="grid-text">
+          Apoiou estudantes em seus <span className='highlight' style={{ color: 'red', fontWeight: 'bold' }}>projetos acadêmicos</span>, oferecendo ideias e referências detalhadas.
+          </div>
+          <div className="grid-text">
+          A ferramenta também se destacou em <span className='highlight' style={{ color: 'red', fontWeight: 'bold' }}>decisões pessoais</span>. Um jovem profissional recebeu conselhos práticos para melhorar seu desempenho no trabalho.
+          </div>
+          
+          <div className="grid-text">
+          E outro usuário encontrou ajuda na <span className='highlight' style={{ color: 'red', fontWeight: 'bold' }}>escolha de um notebook ideal </span>adequado às suas necessidades.
+          </div>
+          
+          <div className="grid-text">
+          Esses exemplos demonstram o impacto positivo do ChatGPT em diversas esferas da vida, promovendo eficiência, inovação e confiança tanto no âmbito profissional quanto pessoal.
+          </div>
           <div className="grid-text" >
-            Com isso, a metodologia de pesquisa passou por diversos processos, clique <a href='./metodologia'> <span className='highlight'>[aqui] </span></a>e veja como foi esse desenvolvimento.
+          Em resumo, o ChatGPT mostrou-se uma ferramenta versátil e eficaz, proporcionando soluções rápidas e personalizadas, refletindo as experiências únicas de cada usuário e atendendo a uma ampla gama de necessidades.          
+          </div>
+          
+          <div className="grid-text">
+          Interpretando todas essas situações, clique <a href='./interpretacao'> <span className='highlight' style={{ color: 'red', fontWeight: 'bold' }}>[aqui]</span></a> para saber mais
           </div>
         </div>
+
       </div>
     </div>
   );
