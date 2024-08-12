@@ -1,0 +1,13 @@
+.explicacao{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+  
+    font-size: 12px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.text{
+    margin-left: 50px;
+    width: 90%;
+}

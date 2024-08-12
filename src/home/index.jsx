@@ -35,8 +35,8 @@ const features = [
 
 export default function Home() {
   return (
-    <div className="bg-black py-24 sm:py-32 img">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8 img2">
+    <div className="bg-black py-24 sm:py-32  img">
+      <div className="mx-auto max-w-7xl px-6 lg:px-8 img2 ">
         <div className="mx-auto max-w-2xl lg:text-center">
           <h2 className="text-base font-semibold leading-7 text-indigo-600">ESTUDO DA INTELIGÊNCIA ARTIFICIAL E COMO O CHATGPT AUXÍLIA NA TOMADA DE DECISÃO</h2>
           <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl titlePrincipal">

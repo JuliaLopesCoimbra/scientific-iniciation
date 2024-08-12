@@ -20,16 +20,16 @@ export default function GPT() {
                     
                    
                 </AccordionTab>
-                <AccordionTab header="Impacto do Chat GPT na sociedade GROSSI. SOARES, M.">
+                <AccordionTab header="Impacto do Chat GPT na sociedade. SOARES, M.">
                     <p className="m-0">
-                    Esse estudo aborda como a IA pode transformar o ensino, proporcionando experiências personalizadas, identificando dificuldades dos alunos e oferecendo soluções específicas. 
+                    Esse artigo discute o uso do Chat GPT no mundo empresarial, destacando áreas de maior impacto, e na educação, analisando contribuições positivas e negativas. O artigo conclui com uma avaliação geral das vantagens e desvantagens do Chat GPT, além de opiniões e considerações finais da autora.
                     </p>
                     <br></br>
                     <p className="m-0">
-                    O legal desse artigo é que ele explora o potencial da IA para auxiliar professores, automatizando tarefas administrativas e permitindo um foco maior no ensino. Exemplos práticos incluem tutores inteligentes e sistemas de avaliação automatizados, que promovem um aprendizado mais eficiente e adaptativo. O interessante é que a situação desse artigo pode ser um futuro próximo em nossa educação.
+                    O interessante do estudo é que ele oferece uma visão abrangente de como o Chat GPT está moldando a sociedade atual e as futuras tendências tecnológicas. Isso pode ser útil para compreender melhor o impacto dessa ferramenta e tomar decisões informadas sobre seu uso em diferentes contextos. 
                     </p>
                     <br></br>
-                    Para mais detalhes, você pode acessar o artigo completo <a href='https://periodicos.fapam.edu.br/index.php/synthesis/article/view/635/328'>aqui.</a>
+                    Para mais detalhes, você pode acessar o artigo completo <a href='https://doi.org/10.34630/tth.vi3.5080.'>aqui.</a>
                 </AccordionTab>
 
 

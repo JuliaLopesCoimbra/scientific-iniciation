@@ -56,7 +56,7 @@ export default function Bibliografico() {
           <MDBCarouselItem itemId={1}>
             <a href="./bibliografico/gpt">
               <img
-                src="././img/gpt.jpg"
+                src="././img/dall.jpg"
                 className="d-block w-100"
                 alt="Luciano Rossoni"
               />

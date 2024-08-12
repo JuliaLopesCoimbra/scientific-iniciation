@@ -20,9 +20,7 @@ import Contato from "./contato/index.jsx";
 import Publicacao from "./publicacao/index.jsx";
 import Aprenda from "./aprenda/index.jsx";
 import "primereact/resources/themes/lara-light-cyan/theme.css";
-
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
-
 
         
 function App() {
@@ -60,7 +58,14 @@ export default App;
 
 /*
 enviar email
-interpretaçao
-aprenda com a pesquisa
-por online
+
+grasficos dentro do quadro roxo da qnt que ajudou juntamente com as perguntas tipo: 100%disse que mudou a forma de tomar de, fazer algo bem foda
+
+tela ensinando a mexer melhor no gpt depois da explicação transofrmer, coloque tais palavras e tal...
+
+finAL DE TUDO COLOCAR LEIA MAIS NA PAGINA INTERPRETAÇÃO
+
+fazer pag interpretação
+
+cirar as imagens pra por no site
  */
