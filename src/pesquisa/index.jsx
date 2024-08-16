@@ -217,16 +217,7 @@ export default function Pesquisa() {
               </div>
               </a>
 
-              <a href='/interpretacao'>
-                <div class="grid-item imagePesquisa"> 
-              
-                <div>
-                  <p className='title'>Analise a <br></br>INTERPRETAÇÃO DE RESULTADOS</p>
-                  <br></br>
-                </div>
-              
-              </div>
-              </a>
+             
 
               <a href='/conclusao'>
                 <div class="grid-item imagePesquisa"> 

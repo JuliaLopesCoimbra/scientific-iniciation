@@ -14,7 +14,6 @@ import Objetivo from "./pesquisa/objetivo/index.jsx";
 import Metodologia from "./pesquisa/metodologia/index.jsx";
 import Coleta from "./pesquisa/coleta/index.jsx";
 import Analise from "./pesquisa/analise/index.jsx";
-import Interpretacao from "./pesquisa/interpretacao/index.jsx";
 import Conclusao from "./pesquisa/conclusao/index.jsx";
 import Contato from "./contato/index.jsx";
 import Publicacao from "./publicacao/index.jsx";
@@ -42,7 +41,7 @@ function App() {
           <Route path="/metodologia" element={<Metodologia/>} />
           <Route path="/coleta" element={<Coleta/>} />
           <Route path="/analise" element={<Analise/>} />
-          <Route path="/interpretacao" element={<Interpretacao/>} />
+         
           <Route path="/conclusao" element={<Conclusao/>} />
           <Route path="/contato" element={<Contato/>} />
           <Route path="/publicacoes" element={<Publicacao/>} />
@@ -59,13 +58,6 @@ export default App;
 /*
 enviar email
 
-grasficos dentro do quadro roxo da qnt que ajudou juntamente com as perguntas tipo: 100%disse que mudou a forma de tomar de, fazer algo bem foda
+estilizar como mexer gpt e arrumar o portugues 
 
-tela ensinando a mexer melhor no gpt depois da explicação transofrmer, coloque tais palavras e tal...
-
-finAL DE TUDO COLOCAR LEIA MAIS NA PAGINA INTERPRETAÇÃO
-
-fazer pag interpretação
-
-cirar as imagens pra por no site
  */

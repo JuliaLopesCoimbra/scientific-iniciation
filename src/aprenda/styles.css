@@ -1,13 +1,115 @@
-.explicacao{
-    display: flex;
-    align-items: center;
-    justify-items: center;
-  
-    font-size: 12px;
-    margin-left: 50px;
-    margin-right: 50px;
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 colunas */
+  grid-template-rows: auto; /* Altura automática para cada linha */
+  gap: 20px; /* Espaçamento entre os itens */
+  width: 100%;
+  max-width: 1200px; /* Largura máxima do grid */
+  margin: auto;
+
 }
-.text{
-    margin-left: 50px;
-    width: 90%;
+
+.grid-item {
+  background-color: #ffffff;
+  border: 1px solid rgb(128, 0, 128); /* Aqui está a borda roxa */
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+  height: 100%;
+  color: black;
+}
+
+.grid-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.cem {
+  font-size: 50px;
+  color: blue;
+  margin-bottom: 10px; /* Margem inferior para espaçar do texto */
+}
+
+.meio {
+  display: flex;
+    flex-direction: column; /* Organiza o conteúdo verticalmente */
+    justify-content: center; /* Centraliza o conteúdo verticalmente */
+    align-items: center; /* Centraliza o conteúdo horizontalmente */
+    text-align: center; /* Centraliza o texto dentro da div */
+    height: 100%; /* Garante que a div ocupe toda a altura disponível */
+}
+.ccontainer-grid{
+  background-color: #000000;
+}
+/* Media Queries para responsividade */
+@media (max-width: 1024px) {
+  .grid-container {
+      grid-template-columns: repeat(2, 1fr); /* 2 colunas para telas médias */
+  }
+}
+
+@media (max-width: 768px) {
+  .grid-container {
+      grid-template-columns: repeat(1, 1fr); /* 1 coluna para telas pequenas */
+  }
+
+  .grid-item {
+      padding: 15px; /* Reduzir padding para telas menores */
+  }
+
+  .cem {
+      font-size: 40px; /* Diminuir o tamanho da fonte */
+  }
+}
+
+@media (max-width: 480px) {
+  .grid-item {
+      padding: 10px; /* Reduzir ainda mais o padding para telas muito pequenas */
+  }
+
+  .cem {
+      font-size: 30px; /* Diminuir ainda mais o tamanho da fonte */
+  }
+}
+
+.naoso{
+  padding:50px;
+  display: flex;
+    flex-direction: column; /* Organiza o conteúdo verticalmente */
+    justify-content: center; /* Centraliza o conteúdo verticalmente */
+    align-items: center; /* Centraliza o conteúdo horizontalmente */
+    text-align: center; /* Centraliza o texto dentro da div */
+    height: 100%; /* Garante que a div ocupe toda a altura disponível */
+    font-size: 15px;
+    color: #ffffff;
+    
+}
+.preto{
+ 
+  color: #000000;
+  font-size: 15px;
+}
+.seja{
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.finalize{
+ 
+  border-radius: 1%;
+}
+.bloco{
+  background-color: #000000;
+  color: #fff;
+}
+.menor{
+  font-size: 30px;
+  color: blue;
+  margin-bottom: 10px; /* Margem inferior para espaçar do texto */
+}
+.menorzin{
+  font-size: 20px;
+  color: blue;
 }

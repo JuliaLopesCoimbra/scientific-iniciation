@@ -43,25 +43,23 @@ export default function Footer() {
             <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>Aprenda com a Pesquisa</h6>
               <p>
-                <a href='#!' className='text-reset'>
-                  a
+                <a href='#aprendaaqui' className='text-reset'>
+                  Como tomar desicões com o ChatGPT
                 </a>
               </p>
+              <br></br>
               <p>
-                <a href='#!' className='text-reset'>
-                  b
+                <a href='#respostas' className='text-reset'>
+                  Respostas dos entrevistados
                 </a>
               </p>
+              <br></br>
               <p>
-                <a href='#!' className='text-reset'>
-                  c
+                <a href='#prompt' className='text-reset'>
+                  O prompt do ChatGPT
                 </a>
               </p>
-              <p>
-                <a href='#!' className='text-reset'>
-                  d
-                </a>
-              </p>
+              
             </MDBCol>
 
             <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4'>
@@ -71,16 +69,19 @@ export default function Footer() {
                   Problema de pesquisa
                 </a>
               </p>
+              <br></br>
               <p>
                 <a href='/bibliografico' className='text-reset'>
                   Levantamento Bibliográfico
                 </a>
               </p>
+              <br></br>
               <p>
                 <a href='/coleta' className='text-reset'>
                   Coleta de Dados
                 </a>
               </p>
+              <br></br>
               <p>
                 <a href='/interpretacao' className='text-reset'>
                  Interpretação dos Resultados

@@ -39,14 +39,15 @@ export default function Conclusao() {
       </div>
       <div className="container-explica-problema bg-white mt-8 text-black">
         <div className="grid-total bg-white">
+         
           <div className="grid-text">
-          Desde os primeiros milênios, as decisões humanas moldaram eventos significativos, influenciando crises, avanços e o curso da história. Com o desenvolvimento da Inteligência Artificial, especialmente o ChatGPT, uma ferramenta revolucionária, a maneira como tomamos decisões está se transformando. Este projeto de pesquisa explora o papel do ChatGPT, destacando seu impacto na tomada de decisões e produtividade.
-          </div>
-          <div className="grid-text">
-          O ChatGPT oferece suporte crucial em situações de conhecimento limitado, proporcionando respostas rápidas e precisas. No âmbito profissional, a ferramenta se mostrou eficaz na resolução de problemas técnicos, elaboração de planos de aula, estratégias de marketing, desenvolvimento de projetos acadêmicos e planos de desenvolvimento de funcionários. Além disso, o ChatGPT tem um impacto significativo em decisões pessoais, fornecendo suporte emocional e conselhos práticos que melhoram a confiança e a autoestima.
+          O ChatGPT ofereceu suporte crucial em situações onde o conhecimento era limitado, proporcionando respostas rápidas e precisas. No âmbito profissional, a ferramenta demonstrou eficácia na resolução de problemas técnicos, elaboração de planos de aula, desenvolvimento de estratégias de marketing, e na execução de projetos acadêmicos e planos de desenvolvimento de funcionários. Além disso, o ChatGPT impactou significativamente as decisões pessoais, fornecendo suporte emocional e conselhos práticos que elevaram a confiança e a autoestima dos usuários.
          </div>
           <div className="grid-text">
           Os entrevistados reconheceram o ChatGPT como um recurso essencial, vendo-o como um apoio valioso para tomar decisões informadas. O site apresenta detalhadamente a pesquisa, compartilhando descobertas e orientações sobre o uso eficiente do ChatGPT, melhorando a transparência e acessibilidade da ferramenta.
+          </div>
+          <div className="grid-text">
+          Posso concluir que o ChatGPT cumpriu com sucesso o objetivo de auxiliar as pessoas na tomada de decisões e no aumento da produtividade. A ferramenta demonstrou ser um recurso valioso, proporcionando insights rápidos e precisos em diversas situações, tanto no âmbito profissional quanto pessoal. Ao oferecer soluções práticas e suporte emocional, o ChatGPT não apenas facilitou decisões mais informadas, mas também contribuiu para o aprimoramento da confiança e eficiência dos usuários, confirmando sua relevância e eficácia como um aliado na rotina diária.
           </div>
           <div className="grid-text" >
           A seção <a href='./sobre'> <span className='highlight'>"Sobre Mim"</span></a> oferece uma visão pessoal da minha trajetória, humanizando o conteúdo e criando uma conexão emocional com os visitantes. Compartilhando minhas experiências e conquistas para inspira os visitantes a perseguirem seus sonhos com determinação, destacando valores como resiliência e inovação.

@@ -75,7 +75,10 @@ export default function Analise() {
           </div>
           
           <div className="grid-text">
-          Interpretando todas essas situações, clique <a href='./interpretacao'> <span className='highlight' style={{ color: 'red', fontWeight: 'bold' }}>[aqui]</span></a> para saber mais
+          Todas essas situações foram estudadas e analisadas com estratégia, clique <a href='./aprenda'> <span className='highlight' style={{ color: 'red', fontWeight: 'bold' }}>[aqui]</span></a> para aprender com a pesquisa
+          </div>
+          <div className="grid-text">
+            Ou para saber sobre a conclusão da pesquisa, clique <a href='./conclusao'> <span className='highlight' style={{ color: 'red', fontWeight: 'bold' }}>[aqui]</span></a>   
           </div>
         </div>
 

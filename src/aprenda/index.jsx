@@ -1,6 +1,8 @@
 import './styles.css';
 import styled from 'styled-components';
 
+
+
 const GridContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -308,26 +310,123 @@ export default function Aprenda() {
     </section>
 
 
-    <GridContainer>
-      <GridItem>
-      100% dos entrevistados mudaram sua forma de tomar decisões
-      </GridItem>
-      <GridItem></GridItem>
-      <GridItem>20% dos entrevistados tinham medo de usar a plataforma por medo de oferecer dados incorretos ou plagiados</GridItem>
-      <GridItem>70% dos entrevistados utilizavam outros sites para consultas e passaram a utilizar o ChatGPT para soluções em uma fração de tempo</GridItem>
-      <GridItem>Todos pretendem continuar usando a plataforma para tomar decisões</GridItem>
-      <GridItem>80% dos entrevistados classificam o ChatGPT como um brilhante insight para seus projetos </GridItem>
-      <GridItem>Os entrevistados confessaram que não utilizavam as respostas do GPT na íntegra, mas sim como base para desenvolver suas próprias ideias</GridItem>
-      <GridItem>100% dos entrevistados tiveram uma grande mudança em sua rotina, aumentando a produtividade e a segurança dos dados </GridItem>
-      <GridItem>40% dos entrevistados acham que o ChatGPT precisa ser aprimorado em algumas areas</GridItem>
-    </GridContainer>
+    <div className='container-grid' id='respostas'>
+        <div class="grid-container">
+             
+                <div class="grid-item imagePesquisa"> 
+              
+                <div>
+                  <p className='title'> <p className='cem'>100% </p> dos entrevistados mudaram sua forma de tomar decisões</p>
+                  <br></br>
+                  <p className='subtitle'> </p>
+                </div>
+              
+              </div>
+              
 
+             
+                <div class="grid-item imagePesquisa meio"> 
+              
+                <div>
+                  <p className='title'>Os entrevistados afirmaram que não se consideravam produtivos sem a internet, o que demonstra que o público escolhido foi ideal para passar pelo teste utilizando uma IA em sua rotina.</p>
+                  <br></br>
+                  <p className='subtitle'> </p>
+                </div>
+              
+              </div>
+             
+
+            
+                <div class="grid-item imagePesquisa"> 
+              
+                <div>
+                  <p className='title'><p className='cem'>20% </p> dos entrevistados tinham medo de usar a plataforma por medo de oferecer dados incorretos ou plagiados</p>
+                  <br></br>
+                  <p className='subtitle'> </p>
+                </div>
+              
+              </div>
+             
+              
+              
+                <div class="grid-item imagePesquisa"> 
+              
+                <div>
+                  <p className='title'><p className='cem'>70% </p> dos entrevistados utilizavam outros sites para consultas e passaram a utilizar o ChatGPT para soluções em uma fração de tempo</p>
+                  <br></br>
+                  <p className='subtitle'> </p>
+                </div>
+              
+              </div>
+              
+              
+                <div class="grid-item imagePesquisa meio"> 
+              
+                <div>
+                  <p className='title'>Todos pretendem continuar usando a plataforma para tomar decisões</p>
+                  <br></br>
+                </div>
+              
+              </div>
+             
+
+             
+                <div class="grid-item imagePesquisa"> 
+              
+                <div>
+                  <p className='title'><p className='cem'>80% </p> dos entrevistados classificam o ChatGPT como um brilhante insight para seus projetos </p>
+                  <br></br>
+                </div>
+              
+              </div>
+              
+
+              
+                <div class="grid-item imagePesquisa meio"> 
+              
+                <div>
+                  <p className='title'>Os entrevistados confessaram que não utilizavam as respostas do GPT na íntegra, mas sim como base para desenvolver suas próprias ideias</p>
+                  <br></br>
+                </div>
+              
+              </div>
+              
+
+             
+                <div class="grid-item imagePesquisa"> 
+              
+                <div>
+                  <p className='title'><p className='cem'>100% </p> dos entrevistados tiveram uma grande mudança em sua rotina, aumentando a produtividade e a segurança dos dados </p>
+                  <br></br>
+                </div>
+              
+              </div>
+             
+            
+                <div class="grid-item imagePesquisa"> 
+              
+                <div>
+                  <p className='title'><p className='cem'>40% </p> dos entrevistados acham que o ChatGPT precisa ser aprimorado em algumas areas</p>
+                  <br></br>
+                </div>
+              
+              </div>
+              
+              
+        </div>
+      </div>
+   
+
+      <p className=" text-xl leading-8 text-gray-700  text-center naoso">
+    <b>Nem todas as respostas foram positivas e gratificantes. Durante a entrevista, alguns indicaram que é necessário escrever muito bem as palavras para obter respostas satisfatórias do GPT. Isso me fez pensar: se os entrevistados, que eram pessoas da área de computação, já encontraram dificuldades, como as pessoas sem esse tipo de conhecimento conseguiriam ter experiências similares no GPT?</b>
+      </p>
+      
 
 
    
 
 
-    <div className="relative isolate overflow-hidden bg-white px-6 py-0 lg:overflow-visible lg:px-0 " >
+    <div className="relative isolate overflow-hidden bg-white px-6 py-0 lg:overflow-visible lg:px-0 " id='prompt'>
       <div className="absolute inset-0 -z-10 overflow-hidden">
         <svg
           className="absolute left-[max(50%,25rem)] top-0 h-[64rem] w-[128rem] -translate-x-1/2 stroke-gray-200 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)]"
@@ -384,23 +483,44 @@ export default function Aprenda() {
     </div>
 
 
+    <p className=" text-center naoso ccontainer-grid">
+    Além das considerações mencionadas, é importante destacar que o ChatGPT não só facilita o processo de tomada de decisões, mas também oferece a possibilidade de aprimorar a qualidade dessas decisões. Pensando nisso, ao utilizar prompts bem estruturados e específicos, os usuários podem explorar o potencial máximo da ferramenta, direcionando-a para fornecer respostas mais precisas e relevantes. Logo,  a elaboração cuidadosa dos prompts permite que o ChatGPT entenda melhor o contexto e as necessidades do usuário, resultando em insights mais alinhados com a situação apresentada. É possível aprender com as dicas abaixo:
+      </p>
+   
 
+    <div className='ccontainer-grid ' id='aprendaaqui'>
     <GridContainer>
-      <GridItem>
-      Para criar coisas:
-                      VERBOS NO INFINITIVO
-                      O ChatGPT também possui limites e para oferecer os dados corretos ele precisa saber o que voce quer exatamente
-      </GridItem>
-      <GridItem>Item 2</GridItem>
-      <GridItem>Item 3</GridItem>
-      <GridItem>Item 4</GridItem>
-      <GridItem>Item 5</GridItem>
-      <GridItem>Item 6</GridItem>
-      <GridItem>Item 7</GridItem>
-      <GridItem>Item 8</GridItem>
-      <GridItem>Item 9</GridItem>
+      <GridItem className='grid-item title bloco bg-black'>
+  
+                      Procure escrever os <b className='cem'>VERBOS NO IMPERATIVO </b> 
+                       O ChatGPT também possui limites e para oferecer os dados corretos ele precisa saber as ações que se pede
+      </GridItem >
+      <GridItem className='grid-item title  bloco bg-black'>Esclareça sua pergunta com mais detalhes, como por exemplo, em vez de perguntar: "Como melhorar meu código?", pergunte: <b className='menor'>"Como posso otimizar este trecho de código React para melhorar a performance?"</b></GridItem>
+      <GridItem className='grid-item title  bloco bg-black'>Use o gpt para compartilhar ideias com outras pessoas, <b className='cem'>compartilhe o link </b> da sessao com seus amigos para eles poderem comaprtilhar com as mesmas ideias</GridItem>
+      <GridItem className='grid-item title  bloco bg-black'>Aprimore seus conhecimentos com o ChatGPT. Primeiro, <b className='menor'>pergunte o que é</b> e entenda para que serve. Em seguida, <b className='menor'>pergunte como ele pode ser usado</b> em seu projeto.</GridItem>
+      <GridItem className='grid-item title  bloco bg-black'>Obtenha respostas no formato que você deseja, já estruturadas de acordo com sua necessidade. Por exemplo, você pode solicitar que as informações sejam apresentadas em formato de <b className='menor'>lista</b>, em <b className='menor'>texto corrido</b>, ou de outra forma específica. Isso facilita a compreensão e a aplicação do conteúdo nas suas atividades.</GridItem>
+      <GridItem className='grid-item title  bloco bg-black'>Tenha mais informações caso tiver uma resposta ruim e peça <b className='menor'>"Pode explicar isso de outra forma?"</b> ou <b className='menor'>"Você pode fornecer um exemplo prático disso?"</b></GridItem>
+      <GridItem className='grid-item title  bloco bg-black'>Use palavras-chave conforme suas necessidades, como <b className='menor'>DETALHES, EXPLIQUE, ou RESUMA</b> para orientar as respostas do ChatGPT. Essas palavras ajudam a direcionar o foco da resposta</GridItem>
+      <GridItem className='grid-item title  bloco bg-black'><b className='cem'>Forneça o contexto </b>(suba imagens, textos, códigos) no prompt do ChatGPT juntamente com o seu pedido, não peça somente mas coloque o conteúdo em si para ser modificado</GridItem>
+      <GridItem className='grid-item title  bloco bg-black'>Use cenarios como exemplos para entender melhor a sua necessidade <b className='menorzin'>"Se eu estiver desenvolvendo uma aplicação web que precisa escalar rapidamente, quais são os melhores frameworks para usar?"</b></GridItem>
     </GridContainer>
+    </div>
 
+    <p className="    text-center naoso preto">
+    Dessa forma, é possível ver que o ChatGPT, quando utilizado de maneira estratégica, não só auxilia nas decisões, mas também contribui para que essas decisões sejam fundamentadas, ponderadas e adaptadas às particularidades de cada situação. A explicação do prompt, portanto, se torna uma ferramenta essencial para maximizar os benefícios que o ChatGPT pode oferecer, tornando-o um aliado indispensável no cotidiano de quem busca tomar decisões melhores e mais informadas.
+      </p>
+      <img
+                          alt=""
+                          src="././img/pp.jpg"
+                          className="mx-auto block w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg"
+                        />
+      <p className="    text-center naoso preto">
+      Esse aspecto reforça a importância de uma educação direcionada ao uso eficaz da tecnologia, onde os usuários aprendem a explorar o potencial do ChatGPT de maneira consciente e produtiva. Assim, ao compreender a lógica por trás da construção de prompts, os usuários podem aprimorar continuamente suas interações com a IA, garantindo que as decisões tomadas sejam cada vez mais inteligentes e bem fundamentadas por qualquer pessoa, <b className='seja'>seja de qual idade, conhecimento ou profissão.</b>
+      </p>
+
+    <p className="    text-center naoso preto finalize">
+    <b>Convido você a entender mais a fundo minha pesquisa e a ler um resumo sobre como foi cada etapa deste projeto. <a href='/pesquisa'>Clique aqui para saber mais.</a></b>
+      </p>
 
     </div>
   )
