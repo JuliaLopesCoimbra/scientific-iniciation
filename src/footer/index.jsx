@@ -43,19 +43,19 @@ export default function Footer() {
             <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>Aprenda com a Pesquisa</h6>
               <p>
-                <a href='#aprendaaqui' className='text-reset'>
+                <a href='#aprenda' className='text-reset'>
                   Como tomar desicões com o ChatGPT
                 </a>
               </p>
               <br></br>
               <p>
-                <a href='#respostas' className='text-reset'>
+                <a href='#aprenda' className='text-reset'>
                   Respostas dos entrevistados
                 </a>
               </p>
               <br></br>
               <p>
-                <a href='#prompt' className='text-reset'>
+                <a href='#aprenda' className='text-reset'>
                   O prompt do ChatGPT
                 </a>
               </p>
