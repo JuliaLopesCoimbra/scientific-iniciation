@@ -1,9 +1,5 @@
 import React from "react";
-import {
-  MDBCarousel,
-  MDBCarouselItem,
-  MDBCarouselCaption,
-} from "mdb-react-ui-kit";
+
 
 export default function Metodologia() {
   return (

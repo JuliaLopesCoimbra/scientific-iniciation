@@ -1,9 +1,5 @@
 import React from "react";
-import {
-  MDBCarousel,
-  MDBCarouselItem,
-  MDBCarouselCaption,
-} from "mdb-react-ui-kit";
+
 import './styles.css'
 
 export default function Coleta() {
