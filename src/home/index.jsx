@@ -1,4 +1,4 @@
-quimport './styles.css';
+import './styles.css';
 import { UserIcon, DocumentIcon, ChartBarIcon, LightBulbIcon } from '@heroicons/react/24/outline';
 
 
