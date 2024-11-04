@@ -58,6 +58,4 @@ export default App;
 /*
 enviar email
 
-estilizar como mexer gpt e arrumar o portugues 
-
  */

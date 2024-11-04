@@ -1,55 +1,42 @@
-import React, { useState } from 'react';
+
+'use client'
+import emailjs from '@emailjs/browser';
+import { useState } from 'react'
 
 export default function Contato() {
-  const [firstName, setFirstName] = useState('');
-  const [lastName, setLastName] = useState('');
-  const [email, setEmail] = useState('');
-  const [phoneNumber, setPhoneNumber] = useState('');
-  const [message, setMessage] = useState('');
+ 
+  const [name, setName] = useState('')
+  const [email, setEmail] = useState('')
+  const [message, setMessage] = useState('')
 
-  const handleSubmit = async (e) => {
+  function sendEmail(e) {
     e.preventDefault();
-  
-    const contactData = {
-      firstName,
-      lastName,
-      email,
-      phoneNumber,
-      message,
-    };
-  
-    try {
-      const response = await fetch('http://localhost:3000/contato', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(contactData),
-      });
-  
-      const contentType = response.headers.get('content-type');
-      const responseText = await response.text(); // Pegue a resposta como texto
-  
-      console.log('Resposta do servidor:', responseText);
-  
-      if (contentType && contentType.includes('application/json')) {
-        const result = JSON.parse(responseText);
-        if (response.ok) {
-          alert('Email enviado com sucesso!');
-        } else {
-          alert('Falha em enviar o e-mail: ' + (result.error || 'Erro desconhecido'));
-        }
-      } else {
-        alert('Resposta inesperada do servidor: ' + responseText);
-      }
-    } catch (error) {
-      console.error('Erro na solicitação fetch:', error);
-      alert('Falha em enviar o e-mail: ' + error.message);
+
+    if(name === ''|| email ===''|| message ===''){
+      alert("preencha todos os campos");
+      return;
     }
-  };
+
+    const templateParams = {
+      from_name:name,
+      message:message,
+      email: email
+    }
+
+    emailjs.send("service_74g6hur","template_ii4frss", templateParams, "1nFGS6Q6toxa8Mqe-")
+      .then((response) => {
+          console.log("Email enviado", response.status, response.text)
+          setName('')
+          setEmail('')
+          setMessage('')
+      }, (err) =>{
+        console.log("ERRO: ", err)
+      })
+    
+  }
 
   return (
-    <div className="isolate bg-white px-4 py-16 sm:py-24 lg:py-32 lg:px-8 relative z-10">
+    <div className="isolate bg-white px-6 py-24 sm:py-32 lg:px-8">
       <div
         aria-hidden="true"
         className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]"
@@ -65,78 +52,54 @@ export default function Contato() {
       <div className="mx-auto max-w-2xl text-center">
         <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Contato</h2>
         <p className="mt-2 text-lg leading-8 text-gray-600">
-          Envie uma mensagem para entrar em contato comigo.
+          Envie um e-mail se desejar entrar em contato comigo.
         </p>
       </div>
-      <form onSubmit={handleSubmit} className="mx-auto mt-16 max-w-xl sm:mt-20">
+      <form action="#" method="POST" className="mx-auto mt-16 max-w-xl sm:mt-20" onSubmit={sendEmail}>
         <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
           <div>
-            <label htmlFor="first-name" className="block text-sm font-semibold leading-6 text-gray-900">
-              Primeiro nome
+            <label htmlFor="first-name" className="block text-sm font-semibold leading-6 text-gray-900"
+            
+           
+           >
+              First name
             </label>
             <div className="mt-2.5">
               <input
+               placeholder="Digite seu nome"
+               onChange={(e) => setName(e.target.value)}
+               value={name}
                 id="first-name"
                 name="first-name"
                 type="text"
                 autoComplete="given-name"
                 className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-                value={firstName}
-                onChange={(e) => setFirstName(e.target.value)}
-              />
-            </div>
-          </div>
-          <div>
-            <label htmlFor="last-name" className="block text-sm font-semibold leading-6 text-gray-900">
-              Sobrenome
-            </label>
-            <div className="mt-2.5">
-              <input
-                id="last-name"
-                name="last-name"
-                type="text"
-                autoComplete="family-name"
-                className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-                value={lastName}
-                onChange={(e) => setLastName(e.target.value)}
               />
             </div>
           </div>
           <div className="sm:col-span-2">
-            <label htmlFor="email" className="block text-sm font-semibold leading-6 text-gray-900">
+            <label htmlFor="email" className="block text-sm font-semibold leading-6 text-gray-900"
+             >
               Email
             </label>
             <div className="mt-2.5">
               <input
+              placeholder="Digite seu email"
+              onChange={(e) => setEmail(e.target.value)}
+              value={email}
                 id="email"
                 name="email"
                 type="email"
                 autoComplete="email"
                 className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
               />
             </div>
           </div>
+       
           <div className="sm:col-span-2">
-            <label htmlFor="phone-number" className="block text-sm font-semibold leading-6 text-gray-900">
-              Número de Celular
-            </label>
-            <div className="relative mt-2.5">
-              <input
-                id="phone-number"
-                name="phone-number"
-                type="tel"
-                autoComplete="tel"
-                className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-                value={phoneNumber}
-                onChange={(e) => setPhoneNumber(e.target.value)}
-              />
-            </div>
-          </div>
-          <div className="sm:col-span-2">
-            <label htmlFor="message" className="block text-sm font-semibold leading-6 text-gray-900">
-              Mensagem
+            <label htmlFor="message" className="block text-sm font-semibold leading-6 text-gray-900"
+             >
+              Message
             </label>
             <div className="mt-2.5">
               <textarea
@@ -144,11 +107,16 @@ export default function Contato() {
                 name="message"
                 rows={4}
                 className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-                value={message}
-                onChange={(e) => setMessage(e.target.value)}
+                defaultValue={''}
+                type="submit" 
+               
+          placeholder="Digite sua mensagem..."
+          onChange={(e) => setMessage(e.target.value)}
+          value={message}
               />
             </div>
           </div>
+        
         </div>
         <div className="mt-10">
           <button
@@ -160,5 +128,5 @@ export default function Contato() {
         </div>
       </form>
     </div>
-  );
+  )
 }

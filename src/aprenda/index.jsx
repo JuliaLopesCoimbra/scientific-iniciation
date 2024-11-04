@@ -112,7 +112,7 @@ export default function Aprenda() {
               </div>
 
               <a
-                href="#aprenda"
+                href="#aprendaaqui"
                 className="inline-block rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-center font-medium text-white hover:bg-indigo-700"
               >
                 Começar
@@ -488,8 +488,10 @@ export default function Aprenda() {
       </p>
    
 
+
+    
     <div className='ccontainer-grid ' id='aprendaaqui'>
-    <GridContainer>
+    <GridContainer className='ccontainer-grid '>
       <GridItem className='grid-item title bloco bg-black'>
   
                       Procure escrever os <b className='cem'>VERBOS NO IMPERATIVO </b> 

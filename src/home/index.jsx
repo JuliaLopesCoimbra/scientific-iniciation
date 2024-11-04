@@ -29,7 +29,7 @@ const features = [
     description:
       'Permita que sua capacidade seja maior que todos os outros pensamentos, junto com a tecnologia você pode viver coisas grandes, é isso que quero trazer desde o princípio. Clique aqui e aprenda com a minha pesquisa.',
     icon: LightBulbIcon,
-    link: '/voce-pode-mudar'
+    link: '/aprenda'
   },
 ];
 

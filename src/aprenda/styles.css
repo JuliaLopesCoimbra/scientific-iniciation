@@ -42,6 +42,7 @@
 }
 .ccontainer-grid{
   background-color: #000000;
+  
 }
 /* Media Queries para responsividade */
 @media (max-width: 1024px) {
@@ -71,6 +72,9 @@
 
   .cem {
       font-size: 30px; /* Diminuir ainda mais o tamanho da fonte */
+  }
+  .ccontainer-grid{
+    display: inline-block;
   }
 }
 

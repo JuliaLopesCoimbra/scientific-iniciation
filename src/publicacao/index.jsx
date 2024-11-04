@@ -4,7 +4,7 @@ import './styles.css';
 const Publicacao = () => {
   const downloadPdf = () => {
     const link = document.createElement('a');
-    link.href = `${process.env.PUBLIC_URL}/document.pdf`;
+    link.href = `${process.env.PUBLIC_URL}/relatorio.pdf`;
     link.download = 'ArtigoJulia.pdf';
     document.body.appendChild(link);
     link.click();
